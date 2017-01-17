@@ -1,6 +1,6 @@
 {
   "name": "floating-action-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "floating action button component in angular 2",
   "main": "index.ts",
   "scripts": {
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/nicoandresr/floating-action-button/issues"
   },
-  "homepage": "https://github.com/nicoandresr/floating-action-button#readme"
+  "homepage": "https://github.com/nicoandresr/floating-action-button#readme",
+  "dependencies": {
+    "@angular/core": "~2.1.0",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.23"
+  }
 }
